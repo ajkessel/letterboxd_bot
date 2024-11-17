@@ -1,5 +1,7 @@
-# rss
-A [maubot](https://github.com/maubot/maubot) that posts movie ratings from [Letterboxd](https://letterboxd.com).
+# Lettrerboxd Bot
+A [maubot](https://github.com/maubot/maubot) that posts film ratings from [Letterboxd](https://letterboxd.com).
+
+Once you are subscribed, any new ratings will be posted in subscribed rooms along with cover art for the film.
 
 ## Usage
 Basic commands:
