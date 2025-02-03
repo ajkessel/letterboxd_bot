@@ -314,6 +314,7 @@ class LBBot(Plugin):
                 content = str(await resp.read())[2:-1]
         headers = {"Content-Location": feed.url, **
                    resp.headers, "Content-Encoding": "identity"}
+        content=content.strip()
         parsed_data = feedparser.parse(content, response_headers=headers)
         if parsed_data.bozo:
             if not isinstance(parsed_data.bozo_exception, feedparser.ThingsNobodyCaresAboutButMe):
